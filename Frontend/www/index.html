@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Pizza</title>
+
+    <!-- Bootsrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <!-- LESS основний файл -->
+    <link rel="stylesheet/less" type="text/css" href="assets/less/main.less" />
+    <!-- LESS JavaScript компілятор -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.5.3/less.min.js"></script>
+
+
+</head>
+<body>
+<div id="cart"></div>
+    
+<div class="main_container">
+    <div class="navbar">
+    <span class="pageicon">
+        <img src="assets/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202016-10-11%20%D0%B2%2018.59.05.png">
+    </span>    
+    <div class="first_row">
+        <span class="inf ph_number">(044)222-5-222</span>
+        <span class="inf 24/7 hidden-sm hidden-xs">24 години 7 днів на тиджень</span>
+        <span class="inf free_delivery hidden-xs" >Безкоштовна доставка</span>
+        <button class="login">Ввійти</button>
+    </div>
+    <div class="second_row">Піца</div>
+    </div>
+   
+
+       
+        <div class="container">
+              
+            <div class="page_name">
+                <span class="name">Усі піци</span>
+                <span class="count_all">8</span>
+            </div>
+        <div class="row pizza_filters">
+        <nav class="navigation">
+        <ul>
+            <li class="filter col-xs-4 col-sm-3 col-md-2">Усі</li>
+            <li class="filter col-xs-4 col-sm-3 col-md-2">М'ясні</li>
+            <li class="filter col-xs-4 col-sm-3 col-md-2">З ананасом</li>
+            <li class="filter col-xs-4 col-sm-3 col-md-2">З грибами</li>
+            <li class="filter col-xs-4 col-sm-3 col-md-2">З овочами</li>
+            <li class="filter col-xs-4 col-sm-3 col-md-2">Веган</li>
+        </ul>
+            </nav>
+        </div>
+        <div class="row" id="pizza_list">
+        <div class="col-sm-6 col-md-4">
+            <div class=" thumbnail clearfix pizza-card ">
+                <img src="assets/images/pizza_1.jpg">
+
+                <div class="caption"><h3>Thumbnail label</h3>
+
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+
+                    <div>
+                        <div class="size-small col-xs-12 col-sm-6">
+                            <div class="size-icon"><img src="assets/images/size-icon.svg"></div>
+                            <div class="weight-icon"><img src="assets/images/weight.svg"></div>
+                            <div class="prize">99</div>
+                            <div class="uah">грн.</div>
+                            <a href="#" class="btn btn-primary">Button 2</a>
+                        </div>
+                        <div class="size-big col-xs-12 col-sm-6 ">
+                            <div class="size-icon"><img src="assets/images/size-icon.svg"></div>
+                            <div class="weight-icon"><img src="assets/images/weight.svg"></div>
+                            <div class="prize">99</div>
+                            <div class="uah">грн.</div>
+                            <a href="#" class="btn btn-default">Button 1</a>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail clearfix pizza-card">
+                <img src="assets/images/pizza_2.jpg">
+
+                <div class="caption"><h3>Thumbnail label</h3>
+
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+
+                      <div>
+                        <div class="size-small col-xs-12 col-sm-6">
+                            <div class="size-icon"><img src="assets/images/size-icon.svg"></div>
+                            <div class="weight-icon"><img src="assets/images/weight.svg"></div>
+                            <div class="prize">99</div>
+                            <div class="uah">грн.</div>
+                            <a href="#" class="btn btn-primary">Button 2</a>
+                        </div>
+                        <div class="size-big col-xs-12 col-sm-6 ">
+                            <div class="size-icon"><img src="assets/images/size-icon.svg"></div>
+                            <div class="weight-icon"><img src="assets/images/weight.svg"></div>
+                            <div class="prize">99</div>
+                            <div class="uah">грн.</div>
+                            <a href="#" class="btn btn-default">Button 1</a>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail clearfix pizza-card">
+                <img src="assets/images/pizza_3.jpg">
+
+                <div class="caption"><h3>Thumbnail label</h3>
+
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+
+                      <div>
+                        <div class="size-small col-xs-12 col-sm-6">
+                            <div class="size-icon"><img src="assets/images/size-icon.svg"></div>
+                            <div class="weight-icon"><img src="assets/images/weight.svg"></div>
+                            <div class="prize">99</div>
+                            <div class="uah">грн.</div>
+                            <a href="#" class="btn btn-primary">Button 2</a>
+                        </div>
+                        <div class="size-big col-xs-12 col-sm-6 ">
+                            <div class="size-icon"><img src="assets/images/size-icon.svg"></div>
+                            <div class="weight-icon"><img src="assets/images/weight.svg"></div>
+                            <div class="prize">99</div>
+                            <div class="uah">грн.</div>
+                            <a href="#" class="btn btn-default">Button 1</a>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="col-sm-6 col-md-4">
+            <div class="thumbnail clearfix pizza-card">
+                <img src="assets/images/pizza_1.jpg">
+
+                <div class="caption"><h3>Thumbnail label</h3>
+
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+
+                      <div>
+                        <div class="size-small col-xs-12 col-sm-6">
+                            <div class="size-icon"><img src="assets/images/size-icon.svg"></div>
+                            <div class="weight-icon"><img src="assets/images/weight.svg"></div>
+                            <div class="prize">99</div>
+                            <div class="uah">грн.</div>
+                            <a href="#" class="btn btn-primary">Button 2</a>
+                        </div>
+                        <div class="size-big col-xs-12 col-sm-6 ">
+                            <div class="size-icon"><img src="assets/images/size-icon.svg"></div>
+                            <div class="weight-icon"><img src="assets/images/weight.svg"></div>
+                            <div class="prize">99</div>
+                            <div class="uah">грн.</div>
+                            <a href="#" class="btn btn-default">Button 1</a>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail clearfix pizza-card">
+                <img src="assets/images/pizza_2.jpg">
+
+                <div class="caption"><h3>Thumbnail label</h3>
+
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+
+                   <div>
+                        <div class="size-small col-xs-12 col-sm-6">
+                            <div class="size-icon"><img src="assets/images/size-icon.svg"></div>
+                            <div class="weight-icon"><img src="assets/images/weight.svg"></div>
+                            <div class="prize">99</div>
+                            <div class="uah">грн.</div>
+                            <a href="#" class="btn btn-primary">Button 2</a>
+                        </div>
+                        <div class="size-big col-xs-12 col-sm-6 ">
+                            <div class="size-icon"><img src="assets/images/size-icon.svg"></div>
+                            <div class="weight-icon"><img src="assets/images/weight.svg"></div>
+                            <div class="prize">99</div>
+                            <div class="uah">грн.</div>
+                            <a href="#" class="btn btn-default">Button 1</a>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail clearfix pizza-card">
+                <img src="assets/images/pizza_3.jpg">
+
+                <div class="caption"><h3>Thumbnail label</h3>
+
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+
+                    <div>
+                        <div class="size-small col-xs-12 col-sm-6">
+                            <div class="size-icon"><img src="assets/images/size-icon.svg"></div>
+                            <div class="weight-icon"><img src="assets/images/weight.svg"></div>
+                            <div class="prize">99</div>
+                            <div class="uah">грн.</div>
+                            <a href="#" class="btn btn-primary">Button 2</a>
+                        </div>
+                        <div class="size-big col-xs-12 col-sm-6 ">
+                            <div class="size-icon"><img src="assets/images/size-icon.svg"></div>
+                            <div class="weight-icon"><img src="assets/images/weight.svg"></div>
+                            <div class="prize">99</div>
+                            <div class="uah">грн.</div>
+                            <a href="#" class="btn btn-default">Button 1</a>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+                <div class="col-sm-6 col-md-4">
+            <div class="thumbnail clearfix pizza-card">
+                <img src="assets/images/pizza_2.jpg">
+
+                <div class="caption"><h3>Thumbnail label</h3>
+
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+
+                      <div>
+                        <div class="size-small col-xs-12 col-sm-6">
+                            <div class="size-icon"><img src="assets/images/size-icon.svg"></div>
+                            <div class="weight-icon"><img src="assets/images/weight.svg"></div>
+                            <div class="prize">99</div>
+                            <div class="uah">грн.</div>
+                            <a href="#" class="btn btn-primary">Button 2</a>
+                        </div>
+                        <div class="size-big col-xs-12 col-sm-6 ">
+                            <div class="size-icon"><img src="assets/images/size-icon.svg"></div>
+                            <div class="weight-icon"><img src="assets/images/weight.svg"></div>
+                            <div class="prize">99</div>
+                            <div class="uah">грн.</div>
+                            <a href="#" class="btn btn-default">Button 1</a>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail clearfix pizza-card">
+                <img src="assets/images/pizza_3.jpg">
+
+                <div class="caption"><h3>Thumbnail label</h3>
+
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+
+                     <div>
+                        <div class="size-small col-xs-12 col-sm-6">
+                            <div class="size-icon"><img src="assets/images/size-icon.svg"></div>
+                            <div class="weight-icon"><img src="assets/images/weight.svg"></div>
+                            <div class="prize">99</div>
+                            <div class="uah">грн.</div>
+                            <a href="#" class="btn btn-primary">Button 2</a>
+                        </div>
+                        <div class="size-big col-xs-12 col-sm-6 ">
+                            <div class="size-icon"><img src="assets/images/size-icon.svg"></div>
+                            <div class="weight-icon"><img src="assets/images/weight.svg"></div>
+                            <div class="prize">99</div>
+                            <div class="uah">грн.</div>
+                            <a href="#" class="btn btn-default">Button 1</a>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="discount-buttom">
+            <span><img src="assets/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202016-10-14%20%D0%B2%2017.45.06.png"></span>
+        </div>
+        </div>
+    
+  
+    </div>
+       
+       
+
+
+<!-- jQuery JavaScript -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"> </script>
+
+<!--Bootsrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<!--Own JavaScript -->
+<!--<script type="text/javascript"  src="assets/js/main.js"> </script>-->
+</body>
+</html>

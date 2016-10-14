@@ -1,0 +1,108 @@
+@mainColor: blue;
+@fontSize1:35px;
+@fontSize2:20px;
+@fontSize3:15px;
+@import "pizza/pizza-card";
+
+.button-builder(@color,@size){
+    width: @size;
+    height: @size / 2;
+    border-radius: 10px;
+    //border: @size * 0.1 solid darken(@color, 10%); 
+    background: @color;
+}
+
+.main_container{
+    position: relative;
+          .navbar{
+                    width: 100%;
+                    height: 100px;
+                    position: fixed;
+                    z-index: 90;
+                    left: 0;
+                    top:0;
+                    background-color: black;
+                    opacity: 0.8;
+                    .pageicon{
+                        float: left;
+                    }
+                    .first_row{
+                        font-size: @fontSize2;
+                        color: gainsboro;
+                        .inf{
+                            margin: 15px;
+                        }
+                        .login{
+                            float:right;
+                            margin: 10px;
+                            .button-builder(orange,80px);
+
+                }
+            
+        }
+        .second_row{
+            color: white;
+            margin: 15px;
+            font-size: @fontSize2;
+        }
+    }
+    
+    
+        .container{
+            background-color:oldlace;
+            position: relative;
+            width: 100%;
+            margin-top: 100px;
+          
+            .name{
+                margin-top: 200px;
+                margin-left: 45%;
+                font-size: @fontSize1;
+            }
+            .count_all{
+                font-size: @fontSize1;
+                color: white;
+                background-color: orange;
+                border-radius: 15px;
+            }
+            .navigation{
+                margin-top: 15px;
+            }
+            .navigation ul{
+                list-style: none;
+                position: relative;
+            }
+            .navigation ul li{
+                position: relative;
+
+            }
+            .pizza_filters{
+                margin-left: 10%;
+                .filter{
+                    color: orange;
+                }
+            }
+            .discount-buttom{
+        position: fixed; 
+                z-index: 99;
+            }
+        } 
+    .right-column{
+        
+        background-color: white;
+        height: 100%;
+        z-index: 99;
+        
+        .order-name{
+            font-size: @fontSize1;
+        }
+        .order-count{
+                font-size: @fontSize1;
+                color: white;
+                background-color: orange;
+                border-radius: 15px;
+        }
+    }
+    
+    
+}
