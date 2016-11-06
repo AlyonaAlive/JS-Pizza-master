@@ -15,7 +15,56 @@
 
 </head>
 <body>
-<div id="cart"></div>
+<div id="cart">
+    <div class="head_order">
+        <span class="order_name">Замовлення</span>
+        <span class="count_order">5</span>
+        <div class="clear_order">Очистити замовлення</div>
+    </div>  
+    
+    <div class="ordered_items">
+        <div class="nothing_ordered">Пусто в холодильнику?<br/>Замовте піцу!</div>
+        <div class="ordered_pizza">
+            <div class="ordered_pizza_name">My Pizza</div>
+            <div class="icons_ordered">
+                <div class="icons_pair_1">
+                    <img src="assets/images/size-icon.svg">
+                    <span class="ordered_pizza_size">40</span>
+                </div>
+                <div class="icons_pair_2">
+                    <img src="assets/images/weight.svg">
+                    <span class="ordered_pizza_weight">780</span>
+                </div>
+            </div>
+            <div class="ordered_pizza_buttons">
+                <span class="ordered_pizza_price">179грн</span>
+                
+                    <button class="icon_red_button">
+                        <i class="minus_icon">-</i>
+                    </button>
+                    <span class="count_label">1</span>
+                    <button class="icon_green_button" >
+                        <i class="plus_icon">+</i>
+                     </button>
+                     <button class="icon_cross_button" >
+                            <i class="cross_icon">X</i>
+                         </button>
+                       
+                
+            </div>
+        </div>
+    </div>
+    
+    <div class="foot_order">
+        <div class="first_row">
+            <span class="text_sum">Сума замовлення</span>
+            <span class="number_sum">179</span>
+        </div>
+        <div class="second_row">
+            <button class="order">Замовити</button>
+        </div>
+    </div>  
+</div>
     
 <div class="main_container">
     <div class="navbar">
